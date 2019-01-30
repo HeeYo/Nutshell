@@ -1,3 +1,3 @@
 # Nutshell
 
-I wants to work remotely.
+I want to work remotely.
