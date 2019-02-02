@@ -1,12 +1,15 @@
-﻿// Nutshell.cpp : 응용 프로그램의 진입점을 정의합니다.
-//
+﻿#include <iostream>
 
-#include "main.h"
+#include "core/core.h"
 
-using namespace std;
+Core core;
 
 int main()
 {
-	cout << "Hello CMake." << endl;
+	// someday, add xml to configure the core.
+	core.init();
+
+	core.loop();
+
 	return 0;
 }
