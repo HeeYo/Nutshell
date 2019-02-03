@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../arch/ARMv6-M/arch.h"
+#include "component/arch.h"
 
 class Core
 {

@@ -7,9 +7,9 @@ Core core;
 int main()
 {
 	// someday, add xml to configure the core.
-	core.init();
+	// core.init();
 
-	core.loop();
+	// core.loop();
 
 	return 0;
 }

@@ -12,7 +12,7 @@ Core::~Core()
 
 void Core::init()
 {
-    arch = new Arch();
+    arch = new Arch(ARCH_LIST::ARCH_ARMV6M);
 
     // Memory init
         // Allocate memory.
