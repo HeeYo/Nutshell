@@ -15,6 +15,5 @@ public:
 
     void init(ARCH_LIST arch);
     void loop();
-
 private:
 };
